@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="有關林口長庚醫院的rTMS 重複經顱磁刺激相關的簡介與費用說明">
+  <meta name="keywords" content="林口長庚醫院, rTMS, 重複經顱磁刺激, 介紹與費用, 安全性, 治療, 適應症, 中風, 巴金森氏症">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="林口長庚醫院 大腦調控中心 神經內科部">
+  <meta property="og:description" content="有關林口長庚醫院的rTMS 重複經顱磁刺激相關的簡介與費用說明">
+  <meta property="og:image" content="https://rtms-neurology-cgmh.github.io/Website/TMS2.png">
+  <meta property="og:url" content="https://rtms-neurology-cgmh.github.io/Website/">
+  <title>林口長庚醫院 大腦調控中心 神經內科部</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      color: #322ff3;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+        background-color: #f9830c;
+        color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      padding: 10px 0;
+      background-color: #e9ecef;
+    }
+    nav a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: #0056b3;
+    }
+    main {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>林口長庚醫院 大腦調控中心 神經內科部</h1>
+  </header>
+
+  <nav>
+    <a href="最新消息.html">最新消息</a>
+    <a href="經顱磁刺激簡介.html">經顱磁刺激簡介</a>
+    <a href="經顱磁刺激臨床應用.html">經顱磁刺激臨床應用</a>
+    <a href="服務項目.html">服務項目</a>
+    <a href="學術著作.html">學術著作</a>
+    <a href="常見問答.html">常見問答</a>
+  </nav>
+
+  <main>
+    <iframe id="content-frame" src="經顱磁刺激簡介.html" width="100%" height="600px" frameborder="0"></iframe>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 林口長庚醫院 大腦調控中心 神經內科部</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        document.getElementById('content-frame').src = this.href;
+      });
+    });
+  </script>
+</body>
+</html>
