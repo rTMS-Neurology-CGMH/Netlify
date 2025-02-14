@@ -6,17 +6,32 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://rtms-neurology-cgmh.netlify.app/about</loc>
+        <loc>https://rtms-neurology-cgmh.netlify.app/最新消息</loc>
         <lastmod>2024-02-14</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://rtms-neurology-cgmh.netlify.app/services</loc>
+        <loc>https://rtms-neurology-cgmh.netlify.app/經顱磁刺激簡介</loc>
         <lastmod>2024-02-14</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://rtms-neurology-cgmh.netlify.app/contact</loc>
+        <loc>https://rtms-neurology-cgmh.netlify.app/經顱磁刺激臨床應用</loc>
+        <lastmod>2024-02-14</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rtms-neurology-cgmh.netlify.app/服務項目</loc>
+        <lastmod>2024-02-14</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rtms-neurology-cgmh.netlify.app/學術著作</loc>
+        <lastmod>2024-02-14</lastmod>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rtms-neurology-cgmh.netlify.app/常見問答</loc>
         <lastmod>2024-02-14</lastmod>
         <priority>0.7</priority>
     </url>
